@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+    background-image: url(./MUSIK/MAR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container-signin{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(217, 220, 248, 0.315);
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    padding: 20px 20px;
+    width: max-content;
+    left: 25%;
+    top: 25%;
+    right: 25%;
+    position: absolute;
+
+}
+.container-logo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 1px;
+    margin-bottom: 30px;
+}
+.container-logo h2{
+    font-size: xx-large;
+    font-family: Poppins;
+    font-size: 3rem;
+}
+.container-logo p{
+    font-size: 10px;
+}
+.container-log{
+    /* background: red; */
+}
+.container-log input{
+    background: transparent;
+    border: 0ch;
+    border-bottom: solid rgb(217, 220, 248); 5px;
+}
+.container-log{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container-log .btn{
+    background:rgb(217, 220, 248) ;
+    border-radius: 10px;
+    border: black solid 1px;
+    padding: 4px;
+}
+.container-log .btn:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.container-log a{
+    font-size: 10px;
+    /* background: red; */
+    margin-bottom: -5px;
+}
+.container-log a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:415px) {
+    .container-signin{
+        /* background: red; */
+        /* position: relative; */
+        left: 25px;
+        right: 25px;
+    }
+    
+}

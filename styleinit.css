@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+    background-image: url(./MUSIK/MAR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container-signin{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(217, 220, 248, 0.315);
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    padding: 20px 20px;
+    width: max-content;
+    left: 25%;
+    top: 25%;
+    right: 25%;
+    position: absolute;
+
+}
+.container-logo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 1px;
+    margin-bottom: 30px;
+}
+.container-logo h2{
+    font-size: xx-large;
+    font-family: Poppins;
+    font-size: 3rem;
+}
+.container-logo p{
+    font-size: 10px;
+}
+.container-action{
+    display: flex;
+    flex-direction: column;
+}
+.container-action .enter{
+    background-color: white;
+    color: blue;
+    margin: 5px;
+    padding: 10px 5px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+.container-action .enter:hover{
+    color: white;
+    background: blue;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.container-action .facebook{
+    background: blue;
+    color: white;
+    margin: 5px;
+    padding: 10px 5px;
+    border-radius: 20px;
+    border: 1px black solid;
+    margin-bottom: 30px;
+}
+.container-action .facebook:hover{
+    background-color: white;
+    color: blue;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.container-action .remember{
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+.container-action .remember:hover{
+    text-decoration: underline;
+}
+.container-action input{
+    background: black;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 5px;
+}
